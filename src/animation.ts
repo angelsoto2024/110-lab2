@@ -4,7 +4,7 @@ export function Animation(feature: string) {
     } else if (feature === 'clothing') {
         console.log(`\x1b[3mI like your outfit!\x1b[0m`);
     } else if (feature === 'lunch') {
-        console.log(`\x1b[1mLunch is served\x1b[0m`);
+        console.log(`\x1b[1mThis lunch is great!\x1b[0m`);
     } else if (feature === 'guests') {
         console.log(`\x1b[1mWelcome, guests!\x1b[0m`);
     }
