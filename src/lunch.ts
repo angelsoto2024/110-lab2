@@ -1,4 +1,4 @@
-const lunches = ["pizza", "burger", "burrito", "pasta"];
+const lunches = ["pizza", "burger", "burrito", "pasta", "salad"];
 
 export function printLunches() {
   for (const lunch of lunches) {
