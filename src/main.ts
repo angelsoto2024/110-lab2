@@ -1,6 +1,7 @@
 
 import { printLunches } from "./lunch";
 import { Music } from './music';
+import { Animation } from './animation';
 
 function main() {
   printLunches();
@@ -8,3 +9,7 @@ function main() {
 
 Music();
 main();
+Animation('music');
+Animation('clothing');
+Animation('lunch');
+Animation('guests');
